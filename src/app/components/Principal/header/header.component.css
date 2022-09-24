@@ -1,0 +1,11 @@
+.Header{
+  border: 2px solid white;
+  background: red;
+  text-align: center;
+}
+.Header > a{
+  padding: 2em;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
