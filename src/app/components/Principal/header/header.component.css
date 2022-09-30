@@ -1,11 +1,48 @@
 .Header{
-  border: 2px solid white;
-  background: red;
+  border: 2px solid transparent;
+  background-image: url("https://i.pinimg.com/564x/da/1a/37/da1a37e1bc6cb6542807c064e87efb2a.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   text-align: center;
+  height: 100%;
+  top: 0;
+  width: 15em;
+  border-radius: 0px 20px 0px 0px;
+  position: -webkit-sticky;
 }
 .Header > a{
-  padding: 2em;
+  display: block;
+  position: sticky;
+  cursor: pointer;
+  padding: 0.5em;
   text-decoration: none;
   color: white;
-  font-size: 20px;
+  margin-top: 30px;
+  font-size: 30px;
+  text-shadow: 2px 2px 2px black;
+}
+.Header > a:hover{
+  filter: invert(1);
+}
+h1{
+  font-size: 60px;
+  margin-top: 10px;
+  color: goldenrod;
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
+}
+#Bk{
+  border: 2px solid white;
+  height: 15em;
+  background-image: url("https://i.pinimg.com/564x/a2/a1/c7/a2a1c7324b32a55663c5ef55bce24678.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h2{
+  font-size: 40px;
+  color: greenyellow;
+  text-shadow: 4px 4px 4px goldenrod;
+  margin-top: 20px;
 }

@@ -1,2 +1,23 @@
-<p>home works!</p>
-<app-post></app-post>
+<div id="ParteCima">
+  <tr *ngFor="let car of cars">
+  <a routerLink="/Story"><img id="Imgicone" src={{car.Icone}} alt=""></a>
+</tr>
+</div>
+<div class="card-body">
+  <table id="TableBody">
+      <tbody id="BodyT">
+        <tr *ngFor="let car of cars">
+          <div id="TrBody">
+          <div id="HeaderHome">
+          <td><img id="Icone" src={{car.Icone}} alt=""></td>
+          <td><h1>{{car.Nome}}</h1>
+         </td>
+        </div>
+
+          <td id="Publicação"><img src={{car.Pub}} alt=""></td>
+          <td id="Texto">{{car.Descricao}}</td>
+        </div>
+        </tr>
+      </tbody>
+    </table>
+</div>

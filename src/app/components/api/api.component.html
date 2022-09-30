@@ -1,0 +1,35 @@
+<div class="container">
+
+  <div class="card add-car">
+      <div class="card-body">
+          <form id="InputsAPI" (ngSubmit)="f.form.valid && saveCar(f)" #f="ngForm" novalidate>
+            <div>
+                <label for="Nome">Nome</label>
+                <input type="text" [(ngModel)]="car.Nome" id="Nome" name="Nome" #Nome="ngModel" required class="form-control" placeholder="Digite o Nome">
+            </div>
+            <div>
+              <label for="Sub_Nome">Sub Nome</label>
+              <input type="text" [(ngModel)]="car.Sub_Nome" id="Sub_Nome" name="Sub_Nome" #Sub_Nome="ngModel" required class="form-control" placeholder="Digite o SubNome">
+          </div>
+          <div>
+            <label for="Sub_Nome">Publicação</label>
+            <input type="text" [(ngModel)]="car.Pub" id="Publicação" name="Publicação" #Publicação="ngModel" required class="form-control" placeholder="Digite a Publicação">
+        </div>
+        <div>
+          <label for="Story">Story</label>
+          <input type="text" [(ngModel)]="car.Story" id="Story" name="Story" #Story="ngModel" required class="form-control" placeholder="Coloque um Story">
+      </div>
+            <div>
+                <label for="Icone ">Icone </label>
+                <input type="text" [(ngModel)]="car.Icone" id="Icone " name="Icone" #Icone="ngModel" required class="form-control" placeholder="Coloque o Icone ">
+            </div>
+            <div>
+              <label for="Descrição">Descrição</label>
+              <textarea type="text" [(ngModel)]="car.Descricao" id="Descrição" name="Descrição" #Descricao="ngModel" required class="form-control" placeholder="Digite a Descrição"></textarea>
+          </div>
+            <button type="submit">Salvar</button>
+            <button type="reset" (click)="cleanForm(f)">Cancelar</button>
+          </form>
+      </div>
+    </div>
+</div>

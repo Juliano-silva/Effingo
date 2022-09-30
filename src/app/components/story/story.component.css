@@ -1,0 +1,31 @@
+#Icone{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-top: -28.8em;
+  margin-left: 20px;
+  position: absolute;
+}
+#SubNome{
+  position: absolute;
+  margin-left: 80px;
+  font-size: 60px;
+  margin-top: -6.4em;
+  font-style: italic;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: gold;
+  text-shadow: 4px 4px 4px purple;
+}
+#Body{
+  border: 2px solid transparent;
+  margin: auto;
+  margin-top: 60px;
+}
+#Story{
+  border: 2px solid gray;
+  margin: auto;
+  width: 40em;
+  border-radius: 20px;
+  height: 60em;
+  margin-top: 20px;
+}

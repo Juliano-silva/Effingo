@@ -4,11 +4,11 @@ import { Car } from '../../models/car';
 import { NgForm } from '@angular/forms';
 
 @Component({
-  selector: 'app-home',
-  templateUrl: './home.component.html',
-  styleUrls: ['./home.component.css']
+  selector: 'app-story',
+  templateUrl: './story.component.html',
+  styleUrls: ['./story.component.css']
 })
-export class HomeComponent implements OnInit {
+export class StoryComponent implements OnInit {
   title(title: any) {
     throw new Error('Method not implemented.');
   }

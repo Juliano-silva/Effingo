@@ -1,0 +1,15 @@
+<div id="ParteCima">
+  <tr *ngFor="let car of cars">
+</tr>
+</div>
+<div class="card-body">
+  <table id="Body">
+      <tbody id="BodyT">
+        <tr *ngFor="let car of cars">
+          <td><img id="Icone" src={{car.Icone}} alt=""></td>
+          <td><h5 id="SubNome">{{car.Sub_Nome}}</h5></td>
+          <td><img id="Story" src={{car.Story}} alt=""></td>
+        </tr>
+      </tbody>
+    </table>
+</div>

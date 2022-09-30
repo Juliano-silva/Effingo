@@ -1,0 +1,12 @@
+#CorpoRouter{
+  margin-left: 10.3em;
+  width: 100%;
+  height: 100%;
+  border: 2px solid transparent;
+  margin-top: -50%;
+  position: absolute;
+  overflow: auto;
+}
+#CorpoRouter::-webkit-scrollbar{
+  width: 0px;
+}

@@ -2,13 +2,12 @@ import { Component, OnInit } from '@angular/core';
 import { CarService } from '../../services/car.service';
 import { Car } from '../../models/car';
 import { NgForm } from '@angular/forms';
-
 @Component({
-  selector: 'app-home',
-  templateUrl: './home.component.html',
-  styleUrls: ['./home.component.css']
+  selector: 'api-root',
+  templateUrl: './api.component.html',
+  styleUrls: ['./api.component.css']
 })
-export class HomeComponent implements OnInit {
+export class ApiComponent implements OnInit {
   title(title: any) {
     throw new Error('Method not implemented.');
   }
